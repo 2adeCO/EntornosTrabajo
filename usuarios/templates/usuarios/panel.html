@@ -1,0 +1,16 @@
+<h1>Objetos coleccionables para ti</h1>
+
+{% for objeto in objetos %}
+  <div class="card">
+    <p><strong>Publicado por:</strong> {{ objeto.ofertado_por.nombre_usuario }}</p>
+    <h2>{{ objeto.nombre }}</h2>
+    <img src="{{ objeto.imagen.url }}" alt="{{ objeto.nombre }}" width="200">
+    <p>{{ objeto.descripcion }}</p>
+    <p><strong>Precio:</strong> {{ objeto.precio }}€</p>
+    <p><strong>Oferta:</strong> {{ objeto.get_tipo_oferta_display }}</p>
+    <p><strong>Categoría:</strong> {{ objeto.categoria.nombre }}</p>
+    <p><small>Publicado el {{ objeto.fecha_creacion }}</small></p>
+  </div>
+{% empty %}
+  <p>No hay objetos aún en tus categorías suscritas.</p>
+{% endfor %}

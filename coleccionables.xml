@@ -1,0 +1,12 @@
+<coleccionables>
+  <objeto>
+    <nombre>Espada antigua</nombre>
+    <descripcion>Espada del siglo XVIII</descripcion>
+    <imagen>espada.jpg</imagen>
+    <precio>150.00</precio>
+    <categoria>Antigüedades</categoria>
+    <tipo_oferta>venta</tipo_oferta>
+    <usuario_id>1</usuario_id>
+  </objeto>
+  <!-- más objetos -->
+</coleccionables>
