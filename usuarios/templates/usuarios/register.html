@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Registro | Mundo Coleccionables</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'usuarios/css/styles.css' %}">
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>Mundo Coleccionables</h1>
+      <h2>Crear Cuenta</h2>
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Crear cuenta</button>
+      </form>
+      <div class="signup-link">
+        <p>¿Ya tienes cuenta? <a href="/">Inicia sesión aquí</a></p>
+      </div>
+    </div>
+  </body>
+</html>
