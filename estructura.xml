@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Coleccion>
+  <Objeto id="1">
+    <Nombre>Libro: El Principito</Nombre>
+    <Categoria>Libro</Categoria>
+    <Descripcion>Edición especial en tapa dura con ilustraciones originales.</Descripcion>
+    <ValorEstimado>25.00</ValorEstimado>
+    <FechaAdquisicion>2023-06-15</FechaAdquisicion>
+    <Estado>Excelente</Estado>
+    <Notas>Regalo de cumpleaños.</Notas>
+  </Objeto>
+
+  <Objeto id="2">
+    <Nombre>Moneda de plata 1945</Nombre>
+    <Categoria>Moneda</Categoria>
+    <Descripcion>Moneda histórica mexicana de 1 peso, 1945.</Descripcion>
+    <ValorEstimado>80.00</ValorEstimado>
+    <FechaAdquisicion>2022-11-01</FechaAdquisicion>
+    <Estado>Buena</Estado>
+    <Notas>Comprada en feria de antigüedades.</Notas>
+  </Objeto>
+
+  <Objeto id="3">
+    <Nombre>Figura de acción Goku</Nombre>
+    <Categoria>Figura</Categoria>
+    <Descripcion>Figura articulada edición limitada de Dragon Ball Z.</Descripcion>
+    <ValorEstimado>120.00</ValorEstimado>
+    <FechaAdquisicion>2021-08-20</FechaAdquisicion>
+    <Estado>Nuevo</Estado>
+    <Notas>Con caja original.</Notas>
+  </Objeto>
+</Coleccion>
